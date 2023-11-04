@@ -1,0 +1,8 @@
+Feature: Loginto Amazon Website
+
+Scenario: User is logging into Amazon to select a product
+ Giver: User is on Amazon Website
+ When: User is on the Amazon HomePage
+ Then: User selects a product
+ and: User click on Check out
+ Then: User placed the order successfully.
